@@ -1,0 +1,9 @@
+linters: linters_with_defaults(
+    line_length_linter(120),
+    # We want to be able to do names like `λ1`
+    object_name_linter = NULL,
+    # We want to comment in between `if` and `else` sometimes
+    brace_linter = NULL,
+    # Useful during development
+    commented_code_linter = NULL
+  )
