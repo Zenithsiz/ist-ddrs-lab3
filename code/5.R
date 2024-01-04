@@ -1,6 +1,6 @@
 
-source("code/network_4_5.R")
-source("code/5/shortestpath.R")
+source("code/util/network_4_5.R")
+source("code/util/shortest_path.R")
 require(lpSolve)
 
 numServers=1
