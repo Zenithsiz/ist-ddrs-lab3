@@ -29,7 +29,7 @@ $ sum_i c_"ab" dot x_"ab" $
 
 #indent_par[Where $c_"ab"$ is the cost of the $a -> b$ link.]
 
-#indent_par[For both of the following cases, the code we have used is presented in the appendix.]
+#indent_par[The code we have used to calculate this is presented in the appendix.]
 
 #indent_par[We achieve the following results in table 9:]
 
@@ -50,3 +50,5 @@ $ sum_i c_"ab" dot x_"ab" $
 )
 
 #indent_par[The total cost ends end at 3. We conclude that the best solution is the route $1 -> 2 -> 3 -> 4$, with a cost of 3.]
+
+#pagebreak()

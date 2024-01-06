@@ -4,6 +4,8 @@
     "ggplot",
     "ggsave",
     "linebreak",
+    "lsroute",
+    "Mbits",
     "objval",
     "typst",
     "xlab",
