@@ -44,3 +44,8 @@
 #pagebreak()
 
 = Exercises
+
+== A. Optimization techniques and telecommunications problems
+
+=== 1. Exercise 1
+#include "exercises/1.typ"

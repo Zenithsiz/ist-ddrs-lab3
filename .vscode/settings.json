@@ -1,10 +1,12 @@
 {
-	"cSpell.words": [
-		"byrow",
-		"ggplot",
-		"ggsave",
-		"objval",
-		"xlab",
-		"ylab"
-	]
+  "cSpell.words": [
+    "byrow",
+    "ggplot",
+    "ggsave",
+    "linebreak",
+    "objval",
+    "typst",
+    "xlab",
+    "ylab"
+  ]
 }
