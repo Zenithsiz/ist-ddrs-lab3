@@ -15,6 +15,7 @@ c <- 5
 # Cents / minute
 lease <- 100 * 10000 / (365 * 24 * 60)
 
+print(blocking_prob(ρ, 20))
 
 # Returns the net revenue
 net_revenue <- function(circuits) {
