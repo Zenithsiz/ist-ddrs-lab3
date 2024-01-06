@@ -56,6 +56,8 @@
 
 #indent_par[In addition, our overall objective is to minimize $r$.]
 
+#indent_par[For both of the following cases, the code we have used is presented in the appendix.]
+
 ==== a. Bifurcated routing
 
 #indent_par[In order to determine the optimal routing using bifurcated routing, we allow the $x_(n_1 n_2 ... n_r)$ variables to be real numbers, thus flows to use multiple routes simultaneously.]
@@ -65,17 +67,17 @@
 #figure(
 	pad(1em, table(
 		columns: (auto, auto),
-		align: left,
+		align: center,
 
 		[Variable], [ Value ],
-		[$x_124$], [0.3333333],
-		[$x_1234$], [0.0000000],
-		[$x_134$], [0.6666667],
-		[$x_24$], [1.0000000],
-		[$x_234$], [0.0000000],
-		[$x_23$], [1.0000000],
-		[$x_13$], [1.0000000],
-		[$x_123$], [0.0000000],
+		[$x_124$], [0.33],
+		[$x_1234$], [0.00],
+		[$x_134$], [0.67],
+		[$x_24$], [1.00],
+		[$x_234$], [0.00],
+		[$x_23$], [1.00],
+		[$x_13$], [1.00],
+		[$x_123$], [0.00],
 		[$r$], [0.45],
 	)),
 	kind: table,
@@ -98,14 +100,14 @@
 		align: left,
 
 		[Variable], [ Value ],
-		[$x_124$], [0.0],
-		[$x_1234$], [0.0],
-		[$x_134$], [1.0],
-		[$x_24$], [1.0],
-		[$x_234$], [0.0],
-		[$x_23$], [1.0],
-		[$x_13$], [1.0],
-		[$x_123$], [0.0],
+		[$x_124$], [0],
+		[$x_1234$], [0],
+		[$x_134$], [1],
+		[$x_24$], [1],
+		[$x_234$], [0],
+		[$x_23$], [1],
+		[$x_13$], [1],
+		[$x_123$], [0],
 		[$r$], [0.6],
 	)),
 	kind: table,
@@ -113,3 +115,5 @@
 )
 
 #indent_par[We reach a minimum value of 0.6 for the maximum link load, with all routes being either 0.0 or 1.0, thus ensuring no bifurcation occurs. The only difference to the bifurcated approach is with the flow $1 -> 4$ that now exclusively uses $1 -> 3 -> 4$.]
+
+#pagebreak()

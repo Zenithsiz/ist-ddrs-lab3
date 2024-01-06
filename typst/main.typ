@@ -50,6 +50,9 @@
 === 1. Exercise 1
 #include "exercises/1.typ"
 
+=== 2. Exercise 2
+#include "exercises/2.typ"
+
 #pagebreak()
 
 = Appendix
@@ -57,3 +60,7 @@
 === 1. Exercise 1
 
 #include "appendixes/1.typ"
+
+=== 2. Exercise 2
+
+#include "appendixes/2.typ"
