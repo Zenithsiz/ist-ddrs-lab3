@@ -6,7 +6,7 @@
 
 #indent_par[We define additional variables to determine the number of circuits for each link, named $y_"ab"$. We also remove the variable $r$, since our objective is now to minimize the overall cost, which only depends on the $y_"ab"$ variables and other constants.]
 
-#indent_par[The following are our updated equations.]
+#indent_par[The following are our updated equations in table 5.]
 
 #figure(
 	pad(1em, table(
@@ -45,7 +45,7 @@
 
 #indent_par[Similarly to the previous exercise, for bifurcated flow, we allow $x_(n_1 n_2 ... n_r)$ to be real numbers, but we must restrict $y_"ab"$ to a positive integer, because we can only have an integer amount of modules.]
 
-#indent_par[This results in the following solution in table 5:]
+#indent_par[This results in the following solution in table 6:]
 
 #figure(
 	pad(1em, table(
@@ -106,3 +106,5 @@
 )
 
 #indent_par[We also reach a network cost of 10000€.]
+
+#pagebreak()

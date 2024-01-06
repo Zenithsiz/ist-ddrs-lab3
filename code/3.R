@@ -24,7 +24,7 @@ objective[c(idx_x_12, idx_x_13, idx_x_23, idx_x_24, idx_x_34)] <- c(cost_12, cos
 # (Node 1): x_12 + x_13 = 1
 # (Node 2): x_12 - x_24 - x_23 = 0
 # (Node 3): x_13 + x_23 - x_34 = 0
-# (Node 4): -x_24 -x_34 = -1
+# (Node 4): -x_24 - x_34 = -1
 mat <- matrix(
   0,
   nrow = 5,
