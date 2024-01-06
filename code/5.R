@@ -2,14 +2,12 @@ source("code/util/network_4_5.R")
 source("code/util/shortest_path.R")
 require(lpSolve)
 
-numServers <- 1
+numServers <- 5
 numNodes <- nrow(L)
-
 
 Costs <- L
 Costs[L == 0] <- Inf
 
-# Delays are deltas
 Delays <- matrix(rep(0, len = numNodes^2), nrow = numNodes)
 for (i in 1:numNodes) {
   for (j in 1:numNodes) {

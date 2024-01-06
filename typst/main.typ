@@ -56,8 +56,15 @@
 === 3. Exercise 3
 #include "exercises/3.typ"
 
+== B. Heuristic methods
+
 === 4. Exercise 4
 #include "exercises/4.typ"
+
+== C. Replica placement
+
+=== 5. Exercise 5
+#include "exercises/5.typ"
 
 #pagebreak()
 
@@ -74,3 +81,6 @@
 
 === 4. Exercise 4
 #include "appendixes/4.typ"
+
+=== 5. Exercise 5
+#include "appendixes/5.typ"
