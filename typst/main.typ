@@ -49,3 +49,11 @@
 
 === 1. Exercise 1
 #include "exercises/1.typ"
+
+#pagebreak()
+
+= Appendix
+
+=== 1. Exercise 1
+
+#include "appendixes/1.typ"
