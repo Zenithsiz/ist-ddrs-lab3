@@ -32,7 +32,7 @@
 
 #indent_par[In detail, we store a matrix `λ` with the installed traffic through each node, so we may compute the link delays using it. We update this matrix using delays calculated from `Tr` matrix and the speed of light.]
 
-#indent_par[This function is present in the appendix.]
+#indent_par[This function is present in the appendix in code 4.]
 
 #indent_par[After running the provided script `lsrouteB.R`, we obtained the following results for a kilometric solution in table 11:]
 
@@ -58,7 +58,7 @@
 
 #indent_par[In detail, we normalize the matrix to the $[0.0, 1.0]$ interval and added it to the `Mu` matrix using `Mu = (1 + extra_capacity) * 1e9 / 8e3`. This makes it so that, as specified, we don't remove any capacity and only add it where necessary. However, this lead to a maximum link load of higher than 70%. To fix this, we multiplied the original by the lowest factor that would yield a < 70% maximum link load.]
 
-#indent_par[The code used for this, which includes the extra capacity, is present in the appendix.]
+#indent_par[The code used for this, which includes the extra capacity, is present in the appendix in code 5.]
 
 #indent_par[After running our solution, we obtained the following solution in table 12:]
 

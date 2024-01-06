@@ -1,4 +1,4 @@
-#let title = "Lab report 3 - TODO"
+#let title = "Lab report 3 - Optimization"
 #let degree = "Master's Programme in Communication Networks Engineering"
 #let course = "Performance Evaluation and Dimensioning of Networks and Systems"
 

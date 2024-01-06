@@ -2,7 +2,7 @@
 
 #indent_par[In order to optimize the maximum link load, we've used the `lpSolve` package from `R`.]
 
-#indent_par[Since we're using the same network and flows as in exercise 1, the routes specified in table 1 stay the same as well]
+#indent_par[Since we're using the same network and flows as in exercise 1, the routes specified in table 1 stay the same as well.]
 
 #indent_par[We define additional variables to determine the number of circuits for each link, named $y_"ab"$. We also remove the variable $r$, since our objective is now to minimize the overall cost, which only depends on the $y_"ab"$ variables and other constants.]
 
@@ -37,7 +37,7 @@
 
 #indent_par[And finally, our overall objective is to minimize $"price" dot (y_12 + y_13 + y_23 + y_24 + y_34)$, where $"price"$ is the price for each module.]
 
-#indent_par[For both of the following cases, the code we have used is presented in the appendix.]
+#indent_par[For both of the following cases, the code we have used is presented in the appendix in code 2.]
 
 #pagebreak()
 

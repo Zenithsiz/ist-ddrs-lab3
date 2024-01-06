@@ -6,10 +6,10 @@
 #indent_par[First, we declared the following variables:]
 
 - Number of servers, $z_i$, in node $i$.
-- Replica, $g_i^j$, has node $i$ be served by node $j$
+- Replica, $g_i^j$, has node $i$ be served by node $j$.
 
 
-#indent_par[Afterwards, we can construct the following equations:]
+#indent_par[Afterwards, we can construct the following equations, in table 13:]
 
 #figure(
 	pad(1em, table(
@@ -31,7 +31,7 @@ $ sum_i,j g_i^j dot C_i^j $
 
 #indent_par[Where $C_i^j$ is the delay between nodes $i$ and $j$.]
 
-#indent_par[The code used to implement this is present in the appendix.]
+#indent_par[The code used to implement this is present in the appendix in code 6.]
 
 #pagebreak()
 

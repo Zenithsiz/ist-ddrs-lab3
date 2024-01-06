@@ -56,7 +56,7 @@
 
 #indent_par[In addition, our overall objective is to minimize $r$.]
 
-#indent_par[For both of the following cases, the code we have used is presented in the appendix.]
+#indent_par[For both of the following cases, the code we have used is presented in the appendix in code 1.]
 
 ==== a. Bifurcated routing
 

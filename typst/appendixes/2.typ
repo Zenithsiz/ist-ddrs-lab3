@@ -4,3 +4,5 @@
   text(size: 0.8em, raw(read("/code/2.R"), lang: "R", block: true)),
   caption: "Code used for exercise 2",
 )
+
+#pagebreak()

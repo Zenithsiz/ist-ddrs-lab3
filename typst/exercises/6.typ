@@ -7,7 +7,7 @@
 	caption: [Network diagram]
 )
 
-#indent_par[The code used to implement this is present in the appendix.]
+#indent_par[The code used to implement this is present in the appendix in code 7.]
 
 #indent_par[From this, we can see that 12 is the optimal number of circuits to maximize the net revenue.]
 

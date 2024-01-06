@@ -2,7 +2,7 @@
 
 #indent_par[We've resorted to the node-link routing formulation to determine the shortest path.]
 
-#indent_par[Since we're using the same network and flows as in exercise 1, the routes specified in table 1 stay the same as well]
+#indent_par[Since we're using the same network and flows as in exercise 1, the routes specified in table 1 stay the same as well.]
 
 #indent_par[Similarly to the previous 2 exercise, we define the variables $x_"ab"$, where $a -> b$ is a link, as the ratio of traffic passing through that link.]
 
@@ -29,7 +29,7 @@ $ sum_i c_"ab" dot x_"ab" $
 
 #indent_par[Where $c_"ab"$ is the cost of the $a -> b$ link.]
 
-#indent_par[The code we have used to calculate this is presented in the appendix.]
+#indent_par[The code we have used to calculate this is presented in the appendix in code 3.]
 
 #indent_par[We achieve the following results in table 9:]
 
@@ -49,6 +49,6 @@ $ sum_i c_"ab" dot x_"ab" $
 	caption: [Solution]
 )
 
-#indent_par[The total cost ends end at 3. We conclude that the best solution is the route $1 -> 2 -> 3 -> 4$, with a cost of 3.]
+#indent_par[The total cost ends up at 3. We conclude that the best solution is the route $1 -> 2 -> 3 -> 4$, with a cost of 3.]
 
 #pagebreak()
